@@ -177,7 +177,7 @@
         "date_started": null,
         "date_finished": null,
         "github": "",
-        "link": "https://colebv2.pages.dev/",
+        
         "order": null,
         "pinned": false,
         "technologies": ["TypeScript", "HTML", "CSS", "Django"]
