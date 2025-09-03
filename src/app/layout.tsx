@@ -12,14 +12,35 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const pageTitle = "Cole's Portfolio"
+const pageDescription = "Showcasing projects in web development, music theory tools, and data science."
+const pageUrl = "https://coleb.pages.dev"
+
 export const metadata: Metadata = {
-  title: "Cole's Portfolio",
-  description: "Showcasing projects in web development, music theory tools, and data science.",
-  icons: {
-    icon: "/favicon.ico", // or .png
-    apple: "/apple-touch-icon.png"
-  }
-};
+  title: pageTitle,
+  description: pageDescription,
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: pageUrl,
+    siteName: "Cole B's Portfolio",
+    images: [
+        {
+            url: pageUrl + '/images/avatar.png',
+            width: 221,
+            height: 68,
+        },
+    ],
+    locale: 'en_US',
+    type: 'website',
+},
+twitter: {
+    card: 'summary',
+    title: pageTitle,
+    description: pageDescription,
+    images: pageUrl + '/images/avatar.png',
+},
+}
 
 
 export default function RootLayout({
