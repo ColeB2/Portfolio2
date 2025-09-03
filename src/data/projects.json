@@ -171,20 +171,20 @@
     },
     {
         "id": 16,
-        "title": "Portfolio V3.0 Netflix w/ React",
+        "title": "Portfolio V2.0 Netflix w/ React",
         "description": "A website to display my projects, created with React and Django REST Framework. Designed in a Netflix style.",
         "image": "https://cole.pythonanywhere.com/media/project_images/portfolio3.png",
         "date_started": null,
         "date_finished": null,
         "github": "",
-        "link": "https://coleb.pages.dev/",
+        "link": "https://colebv2.pages.dev/",
         "order": null,
         "pinned": false,
         "technologies": ["TypeScript", "HTML", "CSS", "Django"]
     },
     {
         "id": 12,
-        "title": "Portfolio V2.0 w/ React",
+        "title": "Portfolio V1.5 w/ React",
         "description": "A website to display my projects, created with React and Django REST Framework.",
         "image": "https://cole.pythonanywhere.com/media/project_images/portfolio2.png",
         "date_started": null,
